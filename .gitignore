@@ -1,1 +1,4 @@
 _site/
+.sass-cache
+_components
+node_modules

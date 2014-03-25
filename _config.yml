@@ -1,0 +1,8 @@
+name: Jan Lindblom
+markdown: redcarpet
+pygments: true
+timezone: "Europe/Stockholm"
+exclude: ['package.json', 'Gruntfile.*', '*.yml', '*.rb', 'Gemfile*', 'README.md', 'sass', 'bower.json', '.bowerrc', 'tmp', 'config.ru', 'LICENSE', 'node_modules']
+encoding: UTF-8
+lsi: false
+safe: true

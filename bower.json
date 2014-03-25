@@ -1,0 +1,9 @@
+{
+  "name": "janlindblom.github.io",
+  "version": "1.0.0",
+  "private": "true",
+  "dependencies": {
+    "jquery-1.11.0": "jquery/jquery#1.11.0",
+    "foundation": "zurb/bower-foundation"
+  }
+}

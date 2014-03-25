@@ -1,0 +1,31 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "name": "janlindblom.github.io",
+  "description": "janlindblom.github.io",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "coffee-script": "~1.7.1",
+    "grunt-jekyll": "~0.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/janlindblom/janlindblom.github.io"
+  },
+  "author": "Jan Lindblom",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/janlindblom/janlindblom.github.io/issues"
+  },
+  "homepage": "https://github.com/janlindblom/janlindblom.github.io"
+}
