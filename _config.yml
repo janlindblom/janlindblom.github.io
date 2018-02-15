@@ -6,3 +6,5 @@ exclude: ['package.json', 'Gruntfile.*', '*.yml', '*.rb', 'Gemfile*', 'README.md
 encoding: UTF-8
 lsi: false
 safe: true
+
+theme: jekyll-theme-cayman
