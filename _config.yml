@@ -1,8 +1,40 @@
-name: Jan Lindblom
-markdown: redcarpet
-pygments: true
-timezone: "Europe/Stockholm"
-exclude: ['package.json', 'Gruntfile.*', '*.yml', '*.rb', 'Gemfile*', 'README.md', 'sass', 'bower.json', '.bowerrc', 'tmp', 'config.ru', 'LICENSE', 'node_modules']
-encoding: UTF-8
-lsi: false
+title: Jan Lindblom
+email: janlindblom@fastmail.fm
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: janerictobias
+github_username:  janlindblom
+
+# Github
 safe: true
+encoding: UTF-8
+
+timezone: Europe/Mariehamn
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-coffeescript
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-include-cache
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
